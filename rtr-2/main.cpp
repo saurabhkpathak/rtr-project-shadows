@@ -18,7 +18,7 @@
 #include <SOIL.h>
 
 // Properties
-const GLuint SCR_WIDTH = 800, SCR_HEIGHT = 600;
+const GLuint SCR_WIDTH = 2000, SCR_HEIGHT = 1200;
 
 // Function prototypes
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
