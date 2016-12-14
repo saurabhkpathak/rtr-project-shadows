@@ -54,7 +54,7 @@ int main()
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
-	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "LearnOpenGL", nullptr, nullptr); // Windowed
+	GLFWwindow* window = glfwCreateWindow(SCR_WIDTH, SCR_HEIGHT, "Polygonal Shading", nullptr, nullptr); // Windowed
 	glfwMakeContextCurrent(window);
 
 	// Set the required callback functions
@@ -154,9 +154,9 @@ int main()
 		Do_Movement();
 
 		// Change light position over time
-		//lightPos.x = sin(glfwGetTime()) * 3.0f;
-		//lightPos.z = cos(glfwGetTime()) * 2.0f;
-		//lightPos.y = 5.0 + cos(glfwGetTime()) * 1.0f;
+		lightPos.x = sin(glfwGetTime()) * 3.0f;
+		lightPos.z = cos(glfwGetTime()) * 2.0f;
+		lightPos.y = 5.0 + cos(glfwGetTime()) * 1.0f;
 
 		// 1. Render depth of scene to texture (from light's perspective)
 		// - Get light projection/view matrix.

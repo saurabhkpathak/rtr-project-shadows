@@ -3,6 +3,9 @@
 c:\program files (x86)\microsoft visual studio 14.0\vc\include\lgl\shader.h(63): warning C4101: 'infoLog': unreferenced local variable
 c:\program files (x86)\microsoft visual studio 14.0\vc\include\lgl\shader.h(62): warning C4101: 'success': unreferenced local variable
 c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(148): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(157): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(158): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(159): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(420): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
 c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(421): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
 c:\users\saurabh\desktop\rtr-project-shadows\rtr-2\main.cpp(425): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
