@@ -151,12 +151,16 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="shaders\cubemaps_refract.frag" />
+    <None Include="shaders\cubemaps_refract.vs" />
     <None Include="shaders\debug_quad.vs" />
     <None Include="shaders\debug_quad_depth.frag" />
     <None Include="shaders\shadow_mapping.frag" />
     <None Include="shaders\shadow_mapping.vs" />
     <None Include="shaders\shadow_mapping_depth.frag" />
     <None Include="shaders\shadow_mapping_depth.vs" />
+    <None Include="shaders\skybox.frag" />
+    <None Include="shaders\skybox.vs" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\wood.png" />
